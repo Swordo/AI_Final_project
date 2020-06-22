@@ -74,7 +74,7 @@ pickRandomIndex = () => {
 
 
 async function start() {
-    model = await tf.loadModel('https://sirdomin.github.io/DigitRecognition/model/my-model-1.json');
+    model = await tf.loadModel('https://raw.githubusercontent.com/Swordo/AI_Final_project/master/Model/my-model-1.json');
 
 
 
